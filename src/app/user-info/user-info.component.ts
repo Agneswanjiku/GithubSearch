@@ -20,7 +20,7 @@ export class UserInfoComponent implements OnInit {
 
 
   findUser(username) {
-      this.githubUser = '';
+      this.githubUser = 'Agneswanjiku';
       this.searchMe  = username;
       this.ngOnInit();
   }
