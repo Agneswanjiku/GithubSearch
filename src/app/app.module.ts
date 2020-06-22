@@ -12,7 +12,6 @@ import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { UpperCasePipe } from './upper-case.pipe';
-import { ImputTextSelectionComponent } from './imput-text-selection/imput-text-selection.component';
 
 
 
@@ -24,7 +23,7 @@ import { ImputTextSelectionComponent } from './imput-text-selection/imput-text-s
     SearchFormComponent,
     UserInfoComponent,
     UpperCasePipe,
-    ImputTextSelectionComponent
+  
     
   ],
   imports: [

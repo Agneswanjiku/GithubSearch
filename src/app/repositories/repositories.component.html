@@ -12,11 +12,11 @@
             <tbody>
               <tr *ngFor=" let repository of gitRepoRequest.searchRepo" >
                 <td>
-                  <p>Repository Owner:
+                  <p>Repository Owner: Agnes Wanjiku
                   <a href="{{repository.owner.html_url}}">{{repository.owner.login}}</a>
                   </p>
-                  <p>Date Created : {{repository.created_at|date}}</p>
-                  <p>Description : {{repository.description}}</p>
+                  
+              
                 </td>
               </tr>
             </tbody>
