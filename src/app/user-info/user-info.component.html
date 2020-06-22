@@ -21,11 +21,9 @@
               <td>{{users.public_repos }}</td>
             </tr>
             <tr>
-              <th scope="row">Date created:</th>
-              <td>{{users.created_at | date}}</td>
-            </tr>
-            <tr>
-              <th scope="row">Followers:</th>
+      
+            <tr>             
+               <th scope="row">Followers:</th>
               <td>{{users.followers}}</td>
             </tr>
             <tr>
@@ -50,10 +48,10 @@
         <table class="table">
           <tbody>
             <tr *ngFor='let repository of userRepos.newRepository'>
-              <td>
-                <a href="{{repository.html_url}}" target="_blank" >{{repository.name}}</a><br>
+              <td>                <a href="{{repository.html_url}}" target="_blank" >{{repository.name}}</a><br>
                   <p class="desc">Description: {{repository.description}}</p><br>
-                  <p>Date Created: {{repository.created_at | date}}</p>
+                
+                  <img src="https://c8.alamy.com/comp/XBH2YG/young-kenyan-woman-works-on-her-laptop-and-listens-to-music-nairobi-kenya-XBH2YG.jpg" height="260">
               </td>
             </tr>
             </tbody>
