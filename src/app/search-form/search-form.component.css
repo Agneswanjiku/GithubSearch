@@ -11,7 +11,7 @@ input {
 
 input[type=submit] {
    background-color: yellowgreen;
-   color: white;
+   color: wheat;
    text-align: center;
    /* width: 50%; */
 }
